@@ -1,0 +1,44 @@
+{
+    "name": "todoist-task-creator",
+    "version": "1.0.0",
+    "description": "Advanced Todoist plugin with unified Material Design, flat CSS icons, mobile-optimized interface and completely restructured architecture",
+    "main": "main.js",
+    "scripts": {
+        "dev": "node esbuild.config.mjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+        "clean": "rm -f main.js main.js.map",
+        "rebuild": "npm run clean && npm run build",
+        "lint": "tsc -noEmit",
+        "typecheck": "tsc -noEmit -skipLibCheck"
+    },
+    "keywords": [
+        "obsidian",
+        "plugin",
+        "todoist",
+        "productivity",
+        "tasks",
+        "calendar",
+        "multilanguage",
+        "repetitive-tasks",
+        "consolidated-note",
+        "compact-interface",
+        "repeat-function"
+    ],
+    "author": "Jonathan Hernandez",
+    "homepage": "https://github.com/jonathanhher/todoist-task-creator",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jonathanhher/todoist-task-creator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jonathanhher/todoist-task-creator/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "builtin-modules": "^4.0.0",
+        "esbuild": "^0.21.0",
+        "obsidian": "latest",
+        "typescript": "^5.5.0"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "todoist-task-creator",
+    "name": "Todoist Task Creator",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Professional Todoist integration plugin with Material Design, flat CSS icons, unified interface and complete mobile compatibility",
+    "author": "Jonathan Hernandez",
+    "authorUrl": "https://github.com/jonathanhher",
+    "fundingUrl": "",
+    "isDesktopOnly": false
+}
